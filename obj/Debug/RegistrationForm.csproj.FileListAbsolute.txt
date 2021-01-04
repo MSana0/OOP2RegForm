@@ -9,3 +9,4 @@ C:\Users\MARIUMSANAMIM\source\repos\RegistrationForm\RegistrationForm\obj\Debug\
 C:\Users\MARIUMSANAMIM\source\repos\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.exe
 C:\Users\MARIUMSANAMIM\source\repos\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.pdb
 C:\Users\MARIUMSANAMIM\source\repos\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Form2.resources
+C:\Users\MARIUMSANAMIM\source\repos\RegistrationForm\RegistrationForm\obj\Debug\RegistrationForm.Dashboard.resources

@@ -86,5 +86,36 @@ namespace RegistrationForm
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string fName = textBoxFName.Text;
+            string lName = textBoxLName.Text;
+            string pass = textBoxPass.Text;
+            string dOB = textBoxDOB.Text;
+            string gender = comboBoxGender.Text;
+            string email = textBoxEmail.Text;
+            string rEmail = textBoxREmail.Text;
+            string rPass = textBoxRPass.Text;
+            string sQ = comboBoxSQ.Text;
+            string sA = textBoxSA.Text;
+            string address = textBoxAddress.Text;
+            string city = textBoxCity.Text;
+            string state = comboBoxState.Text;
+            string zip = textBoxZC.Text;
+            string phone = textBoxPhone.Text;
+
+            /*string output = String.Format("First Name: {0}" +
+                "\n Email: {1}" +
+                "\n Password: {2}", fName, lName);
+            MessageBox.Show(output);
+            rTOutput.Text = output;*/
+            new Dashboard(fName, lName, pass, dOB, gender, email, rEmail, rPass, sQ, sA, address, city, state, zip, phone).Show();
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

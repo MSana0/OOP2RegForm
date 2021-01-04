@@ -39,9 +39,7 @@ namespace RegistrationForm
 
         private void LoginClicked(object sender, EventArgs e)
         {
-            //string name = textBoxName.Text;
-            //string password = textBoxPassword.Text;
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)

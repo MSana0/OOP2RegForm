@@ -84,8 +84,10 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(215, 76);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(183, 22);
             this.textBox2.TabIndex = 4;
+            this.textBox2.UseSystemPasswordChar = true;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button1
@@ -101,7 +103,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.textBox1);
@@ -122,7 +124,7 @@
             this.ClientSize = new System.Drawing.Size(580, 344);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Login Form";
             this.Load += new System.EventHandler(this.Form1_Load);
